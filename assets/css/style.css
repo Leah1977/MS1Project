@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:100,200,300,400,500,600,700|Exo:100, 200, 300, 400, 500, 600, 700');
 
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 
+body {
+    color: #777777
+}
 /* --------------------------------------------------Colours*/
 .bg-color-name-info{
     background-color: #676767;
@@ -32,6 +40,20 @@ h4 {
     margin: 0;
 }
 
+h2 {
+    text-transform: Exo;
+    letter-spacing: uppercase;
+    color: #555555;
+
+}
+
+#logo-name {
+    float: left;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #555555;
+}
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -48,8 +70,21 @@ h4 {
 
 #logo {
     line-height: 75px
+    float: left;
+    font-size: 280%;
 }
 
+#menu {
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 4px;
+
+}
+
+#menu li {
+    float: right;
+    margin-right: 30px;
+}
 /* --------------------------------------------------Heading*/
 header {
     margin: 0
@@ -141,7 +176,6 @@ header {
     height: 600px;
     width: 100%;
     background: url("../images/stock-photo-background-with-uniformed-electrician-with-tools-and-electrical-equipment-and-blue-background-1318378229.jpg") no-repeat center center;
-
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -157,6 +191,8 @@ header {
     position: relative;
 }
 
+
+
 @keyframes hero-zoom {
     from{
         transform: scale(1);
@@ -168,7 +204,7 @@ header {
 }
 
 #cover-text, cover-text h2 {
-    color: #fffff;
+    color: #ffcd0;
 
 }
 
@@ -186,8 +222,8 @@ header {
 
     background-color: rgba(252, 206, 1, 0.705);
 
-    bottom: 100px;
-    left: 150px;
+    bottom: 150px;
+    left: 300px;
 
     position: absolute;
 }
