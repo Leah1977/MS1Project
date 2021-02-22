@@ -1,52 +1,66 @@
-L S H Electrical
+# My first Milestone project - L S H Electricians
 
-This website provides information on an electrical service for Domestic and Commercial clients.
+## Welcome! 
 
-We provide a range of services covering all your electrical needs.
+### This site was built using [GitHub Pages] (https://pages.github.com/)/.
 
-This website demonstrates the services we provide and enables you to book a call out or request a quote.
+#### This website provides information on an electrical service for Domestic and Commercial clients.  
+#### We provide a range of services covering all your electrical needs.
+#### This website demonstrates the services we provide and enables you to book a call out or request a quote.
 
-UX
+## UX
 
-Strategy
+### Strategy
 
-This website is for owners of properties, residential or commercial who are looking to repair or update their electrics.
-I want to provide a service that is easy to navigate. 
-Making it clear and quick to provide information and request a service.
+#### This website is for owners of properties, residential or commercial who are looking to repair or update their electrics.
+#### I want to provide a service that is easy to navigate. 
+#### Making it clear and quick to provide information and request a service.
 
-User Story 1
-	I found myself constantly searching for a qualified electrician online but was unsure of what to ask for. I wanted to know did they meet all safety standards and was the work guaranteed.
+### User Story 1
 
-User Story 2
-	I needed an electrician for an emergency call out.  I wanted to find someone fast, efficient and reliable – quickly.
+#### I found myself constantly searching for a qualified electrician online but was unsure of what to ask for. I wanted to know did they meet all safety standards and was the work guaranteed.
 
-User story 3.
-	We needed a qualified electrician to check our electrics and certify them all for insurance purposes.
-I want to be able to go onto a website and leave with progress step.
+### User Story 2
 
-Scope.
+#### I needed an electrician for an emergency call out.  I wanted to find someone fast, efficient and reliable – quickly.
 
-Essentials will include
+### User story 3.
+
+#### We needed a qualified electrician to check our electrics and certify them all for insurance purposes.
+#### I want to be able to go onto a website and leave with progress step.
+
+### Scope.
+
+#### Essentials will include
+
 •	Call out
 •	Emergency
 •	Insurance
 •	Guarantee
 
-Skeleton:
-I have used Balsamique to draw up 3 page wireframes for Mobile, iPad and Desktop.
-I will design the website to adjust to differents sized screens to ensure optimum viewing.
-I will make sure all links are active and working.
+### Skeleton:
 
-Surface:
+#### I have used Balsamique to draw up 3 page wireframes for Mobile, iPad and Desktop.
+#### I will design the website to adjust to differents sized screens to ensure optimum viewing.
+#### I will make sure all links are active and working.
 
-I will use the colors 
-Black 
-Silver
-Orange
-I will use the fonts
-Sans Serif as a back up
-And for my main font throughout the website for consistency in style.
+### Surface:
 
-My Header and footer will use the two main colors 
-Black and Silver
+#### I will use the colors 
+
+- Gold
+- Grey
+
+#### My Header and footer will use the two main colors
+
+ - Gold
+ - Grey
+
+### Typography
+
+#### I will use the following fonts throughout the website for consistency in style.
+ * Roboto
+ * Exo
+ * Sans Serif as a back up
+
 
