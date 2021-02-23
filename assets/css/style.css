@@ -170,6 +170,18 @@ header {
     letter-spacing: 1.5px;
 }
 
+.servicesblock {
+    background-color: #ffcd05;
+    border: 1px solid;
+    display:block;
+    width: 90%;
+    padding-top: 10px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
 /* --------------------------------------------------Images*/
 
 #hero-image {
