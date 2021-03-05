@@ -75,6 +75,7 @@ h2 {
 }
 
 #menu {
+    background-color: red;
     font-size: 110%;
     list-style-type: none;
     letter-spacing: 4px;
