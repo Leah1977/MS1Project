@@ -25,7 +25,6 @@ body {
 
 .ui-menu-color-contact {
     background-color: #ffcd05;
-
 }
 
 .ui-menu-color-gallery {
@@ -63,6 +62,11 @@ h2 {
     font-weight: 300;
     color: #fafafa;
 }
+
+.heading {
+    text-align: right;
+}
+
 
 .inline-block {
     display: inline-block;
@@ -130,6 +134,11 @@ header {
 .menucontainer { 
     font-size: 0;
 }
+
+.navbar-text {
+        text-align: end;
+}
+
 
 #nav {
     margin: 0;
