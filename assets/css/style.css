@@ -197,7 +197,7 @@ header {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url("../images/stock-photo-background-with-uniformed-electrician-with-tools-and-electrical-equipment-and-blue-background-1318378229.jpg") no-repeat center center;
+    background: url("https://browser-magenta-swan-etqsvzb9.ws-eu03.gitpod.io/workspace/MS1Project/assets/images/homepageimage.jpg") no-repeat center center;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -226,13 +226,14 @@ header {
 }
 
 #cover-text, cover-text h2 {
-    color: #ffcd0;
+    color: #000000;
 
 }
 
 #cover-text {
     font-size: 130%;
-    font-family: Roboto;
+    font-family: "Exo", sans-serif;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
 
