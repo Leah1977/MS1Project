@@ -63,4 +63,27 @@
  * Exo
  * Sans Serif as a back up
 
+###Accreditations
+
+####Light bulbs photo
+####Photo by Diz Play on Unsplash
+
+####<span>Photo by <a href="https://unsplash.com/@dizplay?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Diz Play</a> on <a href="https://unsplash.com/s/photos/electricity?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
+####Fuse box photo
+####Photo by Ralph (Ravi) Kayden on Unsplash
+
+####<span>Photo by <a href="https://unsplash.com/@nate_dumlao?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Nathan Dumlao</a> on <a href="https://unsplash.com/s/photos/electricity?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
+####Photo by Nathan Dumlao on Unsplash
+
+####<span>Photo by <a href="https://unsplash.com/@thkelley?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Thomas Kelley</a> on <a href="https://unsplash.com/s/photos/electric?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>#
+####Photo by Thomas Kelley on Unsplash
+
+####Image by <a href="https://pixabay.com/users/image4you-2459255/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4198293">Harry Strauss</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4198293">Pixabay</a>
+####Image from Harry Strauss on Pixabay
+
+
+
+
 
