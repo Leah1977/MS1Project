@@ -255,18 +255,24 @@ header {
     position: absolute;
 }
 
-#photos {
+#photo {
     clear: both;
-    line-height: 1;
+    line-height: 3;
     column-count: 4;
-    column-gap: 10px;
-    border-image: 1px solid black;
+    column-gap: 5px;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
 
 }
 
 #photo img {
-    width: 50%;
-    height: 50%;
+    width: 400px;
+    height: 160px;
+    border-image: 4px solid black;
+    padding-block: 5px;
+    margin-block-start: auto;
+    margin-block-end: auto;
 }
 
 @media screen and (max-width: 1393px) {
@@ -283,6 +289,22 @@ header {
 
 }
 
+.galleryheading {
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+
+}
+
+.alert {
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 /* --------------------------------------------------Hover.css*/
 
