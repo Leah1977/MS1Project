@@ -70,7 +70,7 @@
 </div>
        
    
-    <section class="services">
+    <section id="services">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 my-5">
@@ -142,38 +142,36 @@
                 </div>
             </div>
 
+            
+
     <form action="https://www.formdump.codeinstitute.net" method="POST">
 
-	<fieldset id="form">
-                <legend>
-                    Contact Form
-                </legend>
-					<label for="name-field">Name:</label>
-					<input id="name-field" type="text" name="name"/>
-					<label for="email">Email:</label>
-					<input id="email-field" type="email" name="user_email" placeholder="Email Address"/>
-					<label for="phone">Phone:</label>
-					<input id="phone" type="phone"/>
+	<fieldset class="form-container">
+        <legend id="form-title">
+            Contact Form
+        </legend>
+		    <label for="name-field">Name:</label>
+			<input id="name-field" type="text" name="name" required=""/>
+			<label for="email">Email:</label>
+			<input id="email-field" type="email" name="user_email" placeholder="Email Address" required=""/>
+			<label for="phone">Phone:</label>
+			<input id="phone" type="phone"/>
 	
-	
-					<br>
-					<div id="message"></div>
-					<label for="message">Message:</label>
-					<br>
-					<textarea name="message" id="message" placeholder="Request a quote/callout" rows="10" cols="45"></textarea>
-					<br>
-					<label for="callout-date">Date required</label>
-					<br>
-					<input id="callout-date" type="date" name"callout-date"/>
-					<br>
-					<input type="submit" value="Request Quote/Callout"/>
-					<input type="reset" value="Clear Form"/>
-					
+			<br>
+			<div id="message"></div>
+			<label for="message">Message:</label>
+			<br>
+			<textarea name="message" id="message" placeholder="Request a quote/callout" rows="10" cols="45"></textarea>
+			<br>
+			<label for="callout-date">Date required</label>
+			<br>
+			<input id="callout-date" type="date" name"callout-date"/>
+			<br>
+			<input type="submit" value="Request Quote/Callout"/>
+			<input type="reset" value="Clear Form"/>
 	</fieldset>
 </form>
-
-    
-    </section>
+</section>
 
     <footer class="container-fluid">
         <div id="footer-details" class="row">

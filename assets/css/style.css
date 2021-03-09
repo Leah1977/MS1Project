@@ -105,6 +105,7 @@ header {
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 80px;
+    margin-left: 30px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -180,7 +181,7 @@ header {
     letter-spacing: 1.5px;
 }
 
-.serviceslist {
+.services-list {
     background-color: none;
     border: none;
     display:block;
@@ -191,12 +192,83 @@ header {
     font-weight: 500;
 
 }
+/* --------------------------------------------------HR styling*/
+.active {
+    border-bottom: 1px solid #000000;
+}
 
-#form {
+
+/* --------------------------------------------------Form*/
+fieldset {
+    padding-left: 10px;
+    min-width: 0;
+    border: 2px solid black;
+    position: relative;
+     
+}
+
+legend {
+    position: relative;
+    width: 100%;
+    font-weight: 500;
+}
+
+fieldset >legend {
+    margin-left: 0rem;
+    padding: 0 1rem; 
+}
+
+
+
+form { 
+    margin-top: 2rem;
+    width: 50%;
+    padding: 20px;
 
 }
 
-/* --------------------------------------------------Images*/
+#form {
+    clear: both;
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+    padding-left: 20px;
+}
+
+#form-title {
+    font-size: 36px;
+    font-weight: 500;
+    
+}
+
+#name-field {
+    padding: 10px;
+    border-radius: 10px;
+    border-color: rgb(32, 32, 32);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#email-field {
+    padding: 10px;
+    border-radius: 10px;
+    border-color: rgb(32, 32, 32);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#phone {
+    padding: 10px;
+    border-radius: 10px;
+    border-color: rgb(32, 32, 32);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#message {
+    padding: 10px;
+    border-radius: 10px;
+    border-color: rgb(32, 32, 32);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+    /* --------------------------------------------------Images*//* --------------------------------------------------Images*/
 
 #hero-image {
     height: 600px;
@@ -268,7 +340,7 @@ header {
 
 #photo img {
     width: 400px;
-    height: 160px;
+    height: 150px;
     border-image: 4px solid black;
     padding-block: 5px;
     margin-block-start: auto;
@@ -276,16 +348,52 @@ header {
 }
 
 @media screen and (max-width: 1393px) {
-    #
+    #services {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
+        padding-left: 5%;
+        
+    }
+
+    #hero-image {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    
 }
 
-#servicestitle {
-    padding: 30px 0;
+@media screen and (max-width:943px) {
+    #nav {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    
+    #cover-text {
+       
+        left: 0px;
+    }       
+}
+
+#services-title {
     margin-top: 0;
-    font-size: 80px;
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+
 
 }
 
@@ -295,11 +403,12 @@ header {
     padding-top: 10px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 50px;
     font-weight: 700;
     letter-spacing: 1.5px;
 
 }
+
 
 .alert {
     padding-top: 10px;
@@ -323,6 +432,8 @@ footer {
     
 }
 
+
+
 .call-out {
     padding-bottom: 15px;
 }
@@ -330,7 +441,7 @@ footer {
 .call-out { 
     width: 25px;
     height: 25px;
-    padding: 0;
+    padding-bottom: 15px;
     border-radius: 50px;
     font-size: 16px;
     color: #fafafa;
@@ -352,14 +463,17 @@ footer {
 
 .social-links {
     padding-bottom: 15px;
-
+    text-align: center;
 }
+
+
 
 .social-links li a i {
     width: 32px;
     height: 32px;
     padding: 12px 0;
     border-radius: 50px;
+    margin: 3%;
     font-size: 13px;
     line-height: 7px;
     text-align: center;
@@ -374,6 +488,9 @@ footer {
 .social-links li a i:hover {
     background: gold;
 }
+
+
+
 
 
 
