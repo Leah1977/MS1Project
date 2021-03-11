@@ -18,7 +18,7 @@
    
     <nav class="navbar navbar-light bg-light">
     <div class="container-fluid">
-        <a class="navbar-brand" href="index.html" class="col-md-4">
+        <a class="navbar-brand col-md-4" href="index.html">
         <img src="https://browser-magenta-swan-etqsvzb9.ws-eu03.gitpod.io/workspace/MS1Project/assets/images/LSH%20Electricians%20Logo.png" alt="Company Logo Image" width="50" height="50" class="d-inline-block align-top">
         <h1><strong>LSH Electricians</strong></h1>
         </a>
@@ -45,16 +45,16 @@
             <div class="col">
                 <ul id="nav" class="list-inline menucontainer">
                     <li class="col-6 col-sm-3 ui-menu-color-home list-inline-item menuitem">
-                    <a href="index.html" class="hvr-sweep-to-bottom active"><i class="fa fa-home" aria-hidden="true" aria-label="Jump to the Home page"></i><span> Home</span></a>
+                    <a href="index.html" class="hvr-sweep-to-bottom active"><i class="fa fa-home" aria-hidden="true"></i><span> Home</span></a>
                     </li>
                     <li class="col-6 col-sm-3 ui-menu-color-services list-inline-item menuitem">
-                    <a href="services.html" class="hvr-sweep-to-bottom active"><i class="fa fa-bolt" aria-hidden="true" aria-label="Jump to the services page"></i><span> Services</span></a>
+                    <a href="services.html" class="hvr-sweep-to-bottom active"><i class="fa fa-bolt" aria-hidden="true"></i><span> Services</span></a>
                     </li>
                     <li class="col-6 col-sm-3 ui-menu-color-contact list-inline-item menuitem">
-                    <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fa fa-comment" aria-hidden="true" aria-label="Jump to the contact page"></i><span> Contact</span></a>
+                    <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fa fa-comment" aria-hidden="true"></i><span> Contact</span></a>
                     </li>
                     <li class="col-6 col-sm-3 ui-menu-color-gallery list-inline-item menuitem">
-                    <a href="gallery.html" class="hvr-sweep-to-bottom"><i class="fa fa-photo" aria-hidden="true" aria-label="Jump to the Gallery section"></i><span> Gallery</span></a>
+                    <a href="gallery.html" class="hvr-sweep-to-bottom"><i class="fa fa-photo" aria-hidden="true"></i><span> Gallery</span></a>
                     </li>
                 </ul>
             </div>
@@ -81,18 +81,18 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                 <h3><i class="fa fa-volume-control-phone d-none d-sm-inline" aria-hidden="true"></i> Emergency Call Out</h3>
                 <br>
-                    <span class="servicesblock">
+                    <div class="servicesblock">
                           
-                        <p>Call today for a quick efficient service.</p>
-                        <p><a class="btn btn-success" href="">Call Now</btn></a></p>
+                        <h3>Call today for a quick efficient service.</h3>
+                        <a class="btn btn-success" href="">Call Now</a>
                     
-                    </span>
+                    </div>
                 </div>
 
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                 <h3><i class="fa fa-check d-none d-sm-inline" aria-hidden="true"></i> Insurance and Testing</h3>
                 <br>
-                    <span class="serviceslist">
+                    <div class="serviceslist">
                     <ul>
                         <li>RECI</li>
                         <li>Safe Electric</li>
@@ -100,50 +100,51 @@
                         <li>Inspections</li>
                         <li>Fire Alarms</li>
                     </ul>
-                    </span>
+                    </div>
                 </div>
 
                 <div class="col-12 d-lg-block col-sm-6 col-md-4 col-lg-3">
                 <h3><i class="fa fa-home d-none d-sm-inline" aria-hidden="true"></i> Domestic Electrician</h3>
                 <br>
-                    <span class="serviceslist">
+                    <div class="serviceslist">
                     <ul>
                         <li>House rewiring</li>
                         <li>Security Lighting</li>
                         <li>Domestic Electrical Repairs</li>
                         <li>Smart Device Installation</li>
                     </ul>
-                    </span>
+                    </div>
                 </div>
                              
                 <div class="col-12 d-lg-block col-sm-6 col-md-4 col-lg-3">
                 <h3><i class="fa fa-building d-none d-sm-inline" aria-hidden="true"></i> Commercial Electrician</h3>
                 <br>
-                    <span class="serviceslist">
+                    <div class="serviceslist">
                     <ul>
                         <li>PAT Testing</li>
                         <li>Emergency Lighting</li>
                         <li>Maintenance Contracts</li>
                         <li>Inspections</li>
                     </ul>
-                    </span>
+                    </div>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                 <h3>Gallery</h3>
-                    <span>
                     <blockquote class="blockquote">        
                     <p>Take a look at some of our more recent work.</p>
-                        <p><a href="gallery.html">Gallery</btn></a></p>
-                    <blockquote>
-                    </span>
+                        <p><a href="gallery.html">Gallery</a></p>
+                    </blockquote>
                 </div>
             </div>
-
+    </div>
+    </section>
             
-
+    <section id="form">
+        <h2>Need a quote or call-out</h2>
+        <h3>Fill out the form below.</h3>
     <form action="https://www.formdump.codeinstitute.net" method="POST">
 
 	<fieldset class="form-container">
@@ -152,20 +153,20 @@
         </legend>
 		    <label for="name-field">Name:</label>
 			<input id="name-field" type="text" name="name" required=""/>
-			<label for="email">Email:</label>
+			<label for="email-field">Email:</label>
 			<input id="email-field" type="email" name="user_email" placeholder="Email Address" required=""/>
 			<label for="phone">Phone:</label>
-			<input id="phone" type="phone"/>
+			<input id="phone" type="number"/>
 	
 			<br>
 			<div id="message"></div>
-			<label for="message">Message:</label>
+			<label for="message-label">Message:</label>
 			<br>
-			<textarea name="message" id="message" placeholder="Request a quote/callout" rows="10" cols="45"></textarea>
+			<textarea name="message" id="message-label" placeholder="Request a quote/callout" rows="10" cols="45"></textarea>
 			<br>
 			<label for="callout-date">Date required</label>
 			<br>
-			<input id="callout-date" type="date" name"callout-date"/>
+			<input id="callout-date" type="date" name="callout_date"/>
 			<br>
 			<input type="submit" value="Request Quote/Callout"/>
 			<input type="reset" value="Clear Form"/>
