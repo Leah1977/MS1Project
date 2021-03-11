@@ -40,8 +40,8 @@ h4 {
 }
 
 h2 {
-    text-transform: "Exo", sans-serif;
-    letter-spacing: uppercase;
+    text-transform: uppercase;
+    letter-spacing: 2px;
     color: #555555;
 
 }
@@ -112,7 +112,7 @@ header {
 }
 
 .name {
-    font-family: "Exo", sans-serif";
+    font-family: "Exo", sans-serif;
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px;
@@ -120,7 +120,7 @@ header {
 }
 
 .info {
-    font-family: "Roboto", sans-serif";
+    font-family: "Roboto", sans-serif;
     font-weight: 200;
     font-size: 30px;
     margin-top: 40px;
@@ -182,7 +182,6 @@ header {
 }
 
 .services-list {
-    background-color: none;
     border: none;
     display:block;
     width: 90%;
@@ -341,11 +340,8 @@ form {
 #photo img {
     width: 400px;
     height: 150px;
-    border-image: 4px solid black;
-    padding-block: 5px;
-    margin-block-start: auto;
-    margin-block-end: auto;
-}
+    
+ }
 
 @media screen and (max-width: 1393px) {
     #services {
@@ -433,7 +429,6 @@ footer {
 }
 
 
-
 .call-out {
     padding-bottom: 15px;
 }
@@ -450,7 +445,7 @@ footer {
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
-    -0-transition: all 0.35s ease-in-out;
+  
 
 }
 
@@ -467,7 +462,6 @@ footer {
 }
 
 
-
 .social-links li a i {
     width: 32px;
     height: 32px;
@@ -482,19 +476,12 @@ footer {
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
-    -0-transition: all 0.35s ease-in-out;
+  
 }
 
 .social-links li a i:hover {
     background: gold;
 }
-
-
-
-
-
-
-
 
 #footer-details {
     padding: 20px;
