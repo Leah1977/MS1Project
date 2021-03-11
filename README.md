@@ -83,7 +83,179 @@
 ####Image by <a href="https://pixabay.com/users/image4you-2459255/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4198293">Harry Strauss</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4198293">Pixabay</a>
 ####Image from Harry Strauss on Pixabay
 
+#### google maps link from www.google.com. ("https://www.google.com/maps/embed")
+
+## Further References
+#### Confident Coding by Rob Percival
+#### Confident Webdsign by Kenny Wood
+#### Patreon 
+#### YouTube 
+
+##Debugging HTML in index.html
+
+####1.  Duplicate attribute of a class.
+####    Fix duplicate attribute by removing extra class reference.
+
+####2.  Missue of aria-label
+####    Fix use of aria-label, removed in this instance, as not required.
+
+####    Amend same errors on all html pages.
+
+##Debugging HTML in services.html
+
+####1.  Duplicate attribute of a class.
+####    Fix duplicate attribute by removing extra class reference.
+
+####2.  Missue of aria-label
+####    Fix use of aria-label, removed in this instance, as not required.
+
+####    Use of p element in a span.
+####    Replace with h3 element.
+
+####    Stray end tag
+        Fix by deleting stray end tag. Remove </btn>
+
+####    ul element used as child element of a span in error
+
+####    unclosed element for blockquote
+
+####    bad value reference for phone
+
+####    duplicate ID reference
+
+####    section lacks heading
+        Assign heading to section
+
+####    debugging on contacts page
+
+####    bad attribute applied for iframe
+####    adjust value attribute from % to figure
+
+####    text not allowed in this style in iframe attribute          warning
+
+html code checking on gallery page
+
+####    incorrect placement of quotation marks
+####    correct placement
+
+####    Error: Duplicate attribute alt.
+####    Remove duplicate attribute.
+
+####    Warning: Section lacks heading. 
+↩        ↩<section id="photo">↩    <
+
+Error: An img element must have an alt attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
+
+From line 107, column 25; to line 107, column 202
+
+          <img src="https://browser-magenta-swan-etqsvzb9.ws-eu03.gitpod.io/workspace/MS1Project/assets/images/MS1%20girl2%20%282%29.jpeg" class="rounded-circle mr-3" height=100 width=100>↩     
+
+Error: End tag div seen, but there were open elements.
+
+From line 113, column 25; to line 113, column 30
+
+          </div>↩     
+
+Error: Unclosed element blockquote.
+
+From line 112, column 29; to line 112, column 40
+
+          <blockquote>↩     
+
+Error: Unclosed element blockquote.
+
+From line 109, column 29; to line 109, column 59
+
+          <blockquote class="blockquote">      
+
+Error: An img element must have an alt attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
+
+From line 119, column 25; to line 119, column 190
+
+          <img src="https://browser-magenta-swan-etqsvzb9.ws-eu03.gitpod.io/workspace/MS1Project/assets/images/girl-image.png" class="rounded-circle mr-3" height=100 width=100>↩     
+
+Error: End tag div seen, but there were open elements.
+
+From line 125, column 25; to line 125, column 30
+
+          </div>↩     
+
+Error: Unclosed element blockquote.
+
+From line 124, column 29; to line 124, column 40
+
+          <blockquote>↩     
+
+Error: Unclosed element blockquote.
+
+From line 121, column 29; to line 121, column 59
+
+          <blockquote class="blockquote">      
+
+Error: An img element must have an alt attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
+
+From line 131, column 25; to line 131, column 185
+
+          <img src="https://browser-magenta-swan-etqsvzb9.ws-eu03.gitpod.io/workspace/MS1Project/assets/images/rosie.jpg" class="rounded-circle mr-3" height=100 width=100>↩     
+
+Error: End tag for body seen, but there were unclosed elements.
+
+From line 200, column 1; to line 200, column 7
+
+ter>↩    ↩</body>↩</htm
+
+Error: Unclosed element div.
+
+From line 69, column 9; to line 69, column 37
+
+>↩        <div class="container-fluid">↩     
+
+Error: Unclosed element section.
+
+From line 68, column 1; to line 68, column 32
+
+>↩</div>↩↩<section class="galleryheading">↩     
 
 
 
 
+CSS debugging
+
+####	h2	Value Error : text-transform "Exo" is not a text-transform value : "Exo",sans-serif
+####    removed extra quotation marks
+
+####	h2	Value Error : letter-spacing uppercase is not a letter-spacing value : uppercase
+####    amended letter spacing value
+
+####	.name	Parse Error sans-serif"; font-weight: 100;
+####    removed extra quotation marks
+
+
+####	.services-list	Value Error : background-color none is not a background-color value : none
+####    removed background-color value
+
+####	#photo img	4px is not a border-image value : 4px solid black
+####    amended value
+
+####	#photo img	Property padding-block doesn't exist : 5px
+####    removed padding-block as not required
+
+####	#photo img	Property margin-block-start doesn't exist : auto
+####    removed margin-block-start as not required.
+
+####	#photo img	Property margin-block-end doesn't exist : auto
+####    removed margin-block-end as not required.
+
+####	.call-out	Parse Error -0-transition: all 0.35s ease-in-out;
+####    -0-transition not required
+
+
+
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+            
